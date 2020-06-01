@@ -1,0 +1,82 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cedadb;
+    background-size: cover;
+    margin-top: 50px;
+}
+#table,#table1{
+    width: 400px;
+}
+.week{
+    
+    border: solid 1px blue;
+
+}
+#head{
+   
+    width: 400px;
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+tr{
+    border: solid 10px darkmagenta;
+}
+td{
+    background-color:#86bbbf;
+    width: 5px;
+    cursor: pointer;
+    border-radius:5px ;
+    text-align: center;
+    border: indigo;
+}
+td:hover{
+    transform: scale(1.3,1.3);
+    background-color:#e1f3f5;
+    border-radius: 5px;
+}
+#today,#today1{
+    width: 380px;
+    text-align: center;
+    background-color: #217fb5;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    background-color: #217fb5;
+    border-radius: 5px;
+    
+    display: block;
+    width: 20px;
+}
+.noxow{
+    background: #7de3ae;
+    cursor: default;
+}
+.garchig{
+    background-color:#1962E7;
+
+}
+.garchig:hover{
+    transform: scale(1,1);
+    background-color:#1962E7  ;
+}
+.today{
+    background-color: #e1f3f5;
+}
+
+.today:hover .tailbar{
+    display: block;
+    background-color: black;
+}
+.tailbar{
+    position:absolute;
+    display: none;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    left: 200px;
+    border-radius: 10px;
+}
